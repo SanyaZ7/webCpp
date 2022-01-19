@@ -1,0 +1,340 @@
+# depslib dependency file v1.0
+1642278196 source:/home/alex/workspace/for_habr/fcgi_site.cpp
+	<unistd.h>
+	<stdio.h>
+	"html_send.h"
+	<thread>
+	<mutex>
+	<vector>
+	<filesystem>
+	<iostream>
+	<cstring>
+	<string>
+	<sstream>
+
+1642365159 source:/home/alex/workspace/for_habr/main.cpp
+	"html_send.h"
+	"web_backend.h"
+	<thread>
+	<iostream>
+	"mstch/mstch.hpp"
+
+1642275760 /home/alex/workspace/for_habr/html_send.h
+	<fcgiapp.h>
+	<vector>
+
+1642336106 source:/home/alex/workspace/for_habr/generate_pages.cpp
+	"generate_pages.h"
+	<cstring>
+	<fstream>
+	<iostream>
+	<filesystem>
+
+1455399821 source:/home/alex/workspace/for_habr/mstch-master/src/template_type.cpp
+	"template_type.hpp"
+
+1455399821 /home/alex/workspace/for_habr/mstch-master/src/template_type.hpp
+	<string>
+	<vector>
+	"token.hpp"
+	"utils.hpp"
+
+1455399821 /home/alex/workspace/for_habr/mstch-master/src/token.hpp
+	<string>
+
+1455399821 /home/alex/workspace/for_habr/mstch-master/src/utils.hpp
+	<string>
+	<boost/variant/apply_visitor.hpp>
+
+1455399821 source:/home/alex/workspace/for_habr/mstch-master/src/token.cpp
+	"token.hpp"
+	"utils.hpp"
+
+1455399821 source:/home/alex/workspace/for_habr/mstch-master/src/mstch.cpp
+	<iostream>
+	"mstch/mstch.hpp"
+	"render_context.hpp"
+
+1455399821 /home/alex/workspace/for_habr/mstch-master/include/mstch/mstch.hpp
+	<vector>
+	<map>
+	<string>
+	<memory>
+	<functional>
+	<boost/variant.hpp>
+
+1455399821 /home/alex/workspace/for_habr/mstch-master/src/render_context.hpp
+	<deque>
+	<list>
+	<sstream>
+	<string>
+	<stack>
+	"mstch/mstch.hpp"
+	"state/render_state.hpp"
+	"template_type.hpp"
+
+1640618182 /home/alex/workspace/for_habr/mstch-master/src/state/render_state.hpp
+	<memory>
+	"token.hpp"
+
+1455399821 /home/alex/workspace/for_habr/mstch-master/src//token.hpp
+	<string>
+
+1455399821 source:/home/alex/workspace/for_habr/mstch-master/src/render_context.cpp
+	"render_context.hpp"
+	"state/outside_section.hpp"
+	"visitor/get_token.hpp"
+
+1455399821 /home/alex/workspace/for_habr/mstch-master/src/state/outside_section.hpp
+	"render_state.hpp"
+
+1455399821 /home/alex/workspace/for_habr/mstch-master/src/visitor/get_token.hpp
+	<boost/variant/static_visitor.hpp>
+	"mstch/mstch.hpp"
+	"has_token.hpp"
+
+1455399821 /home/alex/workspace/for_habr/mstch-master/src/visitor/has_token.hpp
+	<boost/variant/static_visitor.hpp>
+	"mstch/mstch.hpp"
+
+1455399821 source:/home/alex/workspace/for_habr/mstch-master/src/state/in_section.cpp
+	"in_section.hpp"
+	"outside_section.hpp"
+	"visitor/is_node_empty.hpp"
+	"visitor/render_section.hpp"
+
+1455399821 /home/alex/workspace/for_habr/mstch-master/src/state/in_section.hpp
+	<sstream>
+	<vector>
+	"render_state.hpp"
+	"template_type.hpp"
+
+1455399821 /home/alex/workspace/for_habr/mstch-master/src//template_type.hpp
+	<string>
+	<vector>
+	"token.hpp"
+	"utils.hpp"
+
+1455399821 /home/alex/workspace/for_habr/mstch-master/src//utils.hpp
+	<string>
+	<boost/variant/apply_visitor.hpp>
+
+1455399821 /home/alex/workspace/for_habr/mstch-master/src//visitor/is_node_empty.hpp
+	<boost/variant/static_visitor.hpp>
+	"mstch/mstch.hpp"
+
+1455399821 /home/alex/workspace/for_habr/mstch-master/src//visitor/render_section.hpp
+	<boost/variant/static_visitor.hpp>
+	"render_context.hpp"
+	"mstch/mstch.hpp"
+	"utils.hpp"
+	"render_node.hpp"
+
+1455399821 /home/alex/workspace/for_habr/mstch-master/src//render_context.hpp
+	<deque>
+	<list>
+	<sstream>
+	<string>
+	<stack>
+	"mstch/mstch.hpp"
+	"state/render_state.hpp"
+	"template_type.hpp"
+
+1640618182 /home/alex/workspace/for_habr/mstch-master/src//state/render_state.hpp
+	<memory>
+	"token.hpp"
+
+1455399821 /home/alex/workspace/for_habr/mstch-master/src//visitor/render_node.hpp
+	<sstream>
+	<boost/variant/static_visitor.hpp>
+	"render_context.hpp"
+	"mstch/mstch.hpp"
+	"utils.hpp"
+
+1455399821 source:/home/alex/workspace/for_habr/mstch-master/src/state/outside_section.cpp
+	"outside_section.hpp"
+	"visitor/render_node.hpp"
+	"in_section.hpp"
+	"render_context.hpp"
+
+1455399821 source:/home/alex/workspace/for_habr/mstch-master/src/utils.cpp
+	"utils.hpp"
+	"mstch/mstch.hpp"
+
+1642365560 /home/alex/workspace/for_habr/web_backend.h
+	<string>
+	<unistd.h>
+	<limits.h>
+	<cstring>
+	<vector>
+	<fcgiapp.h>
+
+1642336528 /home/alex/workspace/for_habr/generate_pages.h
+	<fcgiapp.h>
+	<vector>
+	<string>
+
+1642365572 source:/home/alex/workspace/for_habr/web_backend.cpp
+	"web_backend.h"
+	<mutex>
+	<cstring>
+	<fstream>
+	<iostream>
+	<filesystem>
+	<thread>
+
+1642546347 source:/home/alex/workspace/web_C++/main.cpp
+	"web_backend.h"
+	<thread>
+	<iostream>
+	"mstch/mstch.hpp"
+	"mstch-master/src/utils.hpp"
+
+1642545041 /home/alex/workspace/web_C++/web_backend.h
+	<string>
+	<unistd.h>
+	<limits.h>
+	<cstring>
+	<vector>
+	<fcgiapp.h>
+
+1455399821 /home/alex/workspace/web_C++/mstch-master/include/mstch/mstch.hpp
+	<vector>
+	<map>
+	<string>
+	<memory>
+	<functional>
+	<boost/variant.hpp>
+
+1642457056 source:/home/alex/workspace/web_C++/web_backend.cpp
+	"web_backend.h"
+	<mutex>
+	<cstring>
+	<fstream>
+	<iostream>
+	<filesystem>
+	<thread>
+
+1455399821 source:/home/alex/workspace/web_C++/mstch-master/src/mstch.cpp
+	<iostream>
+	"mstch/mstch.hpp"
+	"render_context.hpp"
+
+1455399821 /home/alex/workspace/web_C++/mstch-master/src/render_context.hpp
+	<deque>
+	<list>
+	<sstream>
+	<string>
+	<stack>
+	"mstch/mstch.hpp"
+	"state/render_state.hpp"
+	"template_type.hpp"
+
+1640618182 /home/alex/workspace/web_C++/mstch-master/src/state/render_state.hpp
+	<memory>
+	"token.hpp"
+
+1455399821 /home/alex/workspace/web_C++/mstch-master/src//token.hpp
+	<string>
+
+1455399821 /home/alex/workspace/web_C++/mstch-master/src/template_type.hpp
+	<string>
+	<vector>
+	"token.hpp"
+	"utils.hpp"
+
+1455399821 /home/alex/workspace/web_C++/mstch-master/src/token.hpp
+	<string>
+
+1455399821 /home/alex/workspace/web_C++/mstch-master/src/utils.hpp
+	<string>
+	<boost/variant/apply_visitor.hpp>
+
+1455399821 source:/home/alex/workspace/web_C++/mstch-master/src/render_context.cpp
+	"render_context.hpp"
+	"state/outside_section.hpp"
+	"visitor/get_token.hpp"
+
+1455399821 /home/alex/workspace/web_C++/mstch-master/src/state/outside_section.hpp
+	"render_state.hpp"
+
+1455399821 /home/alex/workspace/web_C++/mstch-master/src/visitor/get_token.hpp
+	<boost/variant/static_visitor.hpp>
+	"mstch/mstch.hpp"
+	"has_token.hpp"
+
+1455399821 /home/alex/workspace/web_C++/mstch-master/src/visitor/has_token.hpp
+	<boost/variant/static_visitor.hpp>
+	"mstch/mstch.hpp"
+
+1455399821 source:/home/alex/workspace/web_C++/mstch-master/src/state/in_section.cpp
+	"in_section.hpp"
+	"outside_section.hpp"
+	"visitor/is_node_empty.hpp"
+	"visitor/render_section.hpp"
+
+1455399821 /home/alex/workspace/web_C++/mstch-master/src/state/in_section.hpp
+	<sstream>
+	<vector>
+	"render_state.hpp"
+	"template_type.hpp"
+
+1455399821 /home/alex/workspace/web_C++/mstch-master/src//template_type.hpp
+	<string>
+	<vector>
+	"token.hpp"
+	"utils.hpp"
+
+1455399821 /home/alex/workspace/web_C++/mstch-master/src//utils.hpp
+	<string>
+	<boost/variant/apply_visitor.hpp>
+
+1455399821 /home/alex/workspace/web_C++/mstch-master/src//visitor/is_node_empty.hpp
+	<boost/variant/static_visitor.hpp>
+	"mstch/mstch.hpp"
+
+1455399821 /home/alex/workspace/web_C++/mstch-master/src//visitor/render_section.hpp
+	<boost/variant/static_visitor.hpp>
+	"render_context.hpp"
+	"mstch/mstch.hpp"
+	"utils.hpp"
+	"render_node.hpp"
+
+1455399821 /home/alex/workspace/web_C++/mstch-master/src//render_context.hpp
+	<deque>
+	<list>
+	<sstream>
+	<string>
+	<stack>
+	"mstch/mstch.hpp"
+	"state/render_state.hpp"
+	"template_type.hpp"
+
+1640618182 /home/alex/workspace/web_C++/mstch-master/src//state/render_state.hpp
+	<memory>
+	"token.hpp"
+
+1455399821 /home/alex/workspace/web_C++/mstch-master/src//visitor/render_node.hpp
+	<sstream>
+	<boost/variant/static_visitor.hpp>
+	"render_context.hpp"
+	"mstch/mstch.hpp"
+	"utils.hpp"
+
+1455399821 source:/home/alex/workspace/web_C++/mstch-master/src/state/outside_section.cpp
+	"outside_section.hpp"
+	"visitor/render_node.hpp"
+	"in_section.hpp"
+	"render_context.hpp"
+
+1455399821 source:/home/alex/workspace/web_C++/mstch-master/src/template_type.cpp
+	"template_type.hpp"
+
+1455399821 source:/home/alex/workspace/web_C++/mstch-master/src/token.cpp
+	"token.hpp"
+	"utils.hpp"
+
+1455399821 source:/home/alex/workspace/web_C++/mstch-master/src/utils.cpp
+	"utils.hpp"
+	"mstch/mstch.hpp"
+
